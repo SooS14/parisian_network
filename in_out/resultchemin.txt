@@ -1,0 +1,267 @@
+###########requete numero : 0
+#############essai numero : 0,0
+ligne 5 ; stop: "Bobigny-Pablo-Picasso" ; heure : 15:0:0
+ligne 5 ; stop: "Bobigny-Pantin (Raymond Queneau)" ; heure : 15:3:0
+ligne 5 ; stop: "Eglise de Pantin" ; heure : 15:5:0
+ligne 5 ; stop: "Hoche" ; heure : 15:7:0
+ligne 5 ; stop: "Porte de Pantin" ; heure : 15:8:0
+ligne 5 ; stop: "Ourcq" ; heure : 15:10:0
+ligne 5 ; stop: "Laumière" ; heure : 15:11:0
+ligne 5 ; stop: "Jaurès" ; heure : 15:12:0
+ligne 5 ; stop: "Stalingrad" ; heure : 15:13:0
+ligne 5 ; stop: "Gare du Nord" ; heure : 15:16:0
+ligne 5 ; stop: "Gare de l'Est (Verdun)" ; heure : 15:18:0
+ligne 7 ; stop: "Gare de l'Est (Verdun)" ; heure : 15:19:0
+ligne 4 ; stop: "Gare de l'Est (Verdun)" ; heure : 15:21:0
+ligne 4 ; stop: "Château d'Eau" ; heure : 15:22:0
+ligne 4 ; stop: "Strasbourg-Saint-Denis" ; heure : 15:23:0
+ligne 4 ; stop: "Réaumur-Sébastopol" ; heure : 15:24:0
+ligne 4 ; stop: "Etienne Marcel" ; heure : 15:26:0
+ligne 4 ; stop: "Les Halles" ; heure : 15:27:0
+ligne 4 ; stop: "Châtelet" ; heure : 15:28:0
+ligne 4 ; stop: "Cité" ; heure : 15:29:0
+ligne 4 ; stop: "Saint-Michel" ; heure : 15:30:0
+ligne 4 ; stop: "Odéon" ; heure : 15:32:0
+ligne 4 ; stop: "Saint-Germain des Prés" ; heure : 15:33:0
+ligne 4 ; stop: "Saint-Sulpice" ; heure : 15:34:0
+ligne 4 ; stop: "Saint-Placide" ; heure : 15:35:0
+ligne 4 ; stop: "Montparnasse-Bienvenue" ; heure : 15:37:0
+ligne 12 ; stop: "Montparnasse-Bienvenue" ; heure : 15:39:0
+ligne 12 ; stop: "Falguière" ; heure : 15:40:0
+ligne 12 ; stop: "Pasteur" ; heure : 15:41:0
+ligne 12 ; stop: "Volontaires" ; heure : 15:42:0
+ligne 12 ; stop: "Vaugirard (Adolphe Chérioux)" ; heure : 15:44:0
+ligne 12 ; stop: "Convention" ; heure : 15:45:0
+ligne 12 ; stop: "Porte de Versailles" ; heure : 15:47:0
+ligne 12 ; stop: "Corentin-Celton" ; heure : 15:48:0
+ligne 12 ; stop: "Mairie d'Issy" ; heure : 15:50:0
+
+
+#############essai numero : 0,1
+ligne 12 ; stop: "Mairie d'Issy" ; heure : 2777:46:39
+
+
+#############essai numero : 1,0
+ligne 12 ; stop: "Mairie d'Issy" ; heure : 2777:46:39
+
+
+#############essai numero : 1,1
+ligne 12 ; stop: "Mairie d'Issy" ; heure : 2777:46:39
+
+
+
+
+###########requete numero : 1
+#############essai numero : 0,0
+ligne 9 ; stop: "Exelmans" ; heure : 2777:46:39
+
+
+#############essai numero : 0,1
+ligne 9 ; stop: "Exelmans" ; heure : 2777:46:39
+
+
+#############essai numero : 1,0
+ligne 9 ; stop: "Pont de Sèvres" ; heure : 15:0:0
+ligne 9 ; stop: "Billancourt" ; heure : 15:1:0
+ligne 9 ; stop: "Marcel Sembat" ; heure : 15:3:0
+ligne 9 ; stop: "Porte de Saint-Cloud" ; heure : 15:5:0
+ligne 9 ; stop: "Exelmans" ; heure : 15:7:0
+
+
+#############essai numero : 1,1
+ligne 9 ; stop: "Pont de Sèvres" ; heure : 15:0:0
+ligne 9 ; stop: "Billancourt" ; heure : 15:1:0
+ligne 9 ; stop: "Marcel Sembat" ; heure : 15:3:0
+ligne 9 ; stop: "Porte de Saint-Cloud" ; heure : 15:5:0
+ligne 9 ; stop: "Exelmans" ; heure : 15:7:0
+ligne 9 ; stop: "Michel-Ange-Molitor" ; heure : 15:8:0
+ligne 9 ; stop: "Michel-Ange-Auteuil" ; heure : 15:9:0
+ligne 10 ; stop: "Michel-Ange-Auteuil" ; heure : 15:11:0
+ligne 9 ; stop: "Michel-Ange-Auteuil" ; heure : 15:13:0
+ligne 9 ; stop: "Michel-Ange-Molitor" ; heure : 15:14:0
+ligne 9 ; stop: "Exelmans" ; heure : 15:15:0
+
+
+
+
+###########requete numero : 2
+#############essai numero : 0,0
+ligne 6 ; stop: "Bercy" ; heure : 11:20:0
+ligne 14 ; stop: "Bercy" ; heure : 11:24:0
+ligne 14 ; stop: "Gare de Lyon" ; heure : 11:26:0
+ligne 14 ; stop: "Châtelet" ; heure : 11:29:0
+ligne 14 ; stop: "Pyramides" ; heure : 11:31:0
+ligne 14 ; stop: "Madeleine" ; heure : 11:33:0
+ligne 14 ; stop: "Saint-Lazare" ; heure : 11:35:0
+ligne 13 ; stop: "Saint-Lazare" ; heure : 11:38:0
+ligne 13 ; stop: "Liège" ; heure : 11:39:0
+ligne 13 ; stop: "Place de Clichy" ; heure : 11:41:0
+ligne 13 ; stop: "La Fourche" ; heure : 11:42:0
+ligne 13 ; stop: "Brochant" ; heure : 11:44:0
+ligne 13 ; stop: "Porte de Clichy" ; heure : 11:45:0
+ligne 13 ; stop: "Mairie de Clichy" ; heure : 11:47:0
+ligne 13 ; stop: "Gabriel-Péri" ; heure : 11:50:0
+ligne 13 ; stop: "Les Agnettes" ; heure : 11:52:0
+
+
+#############essai numero : 0,1
+ligne 13 ; stop: "Les Agnettes" ; heure : 2777:46:39
+
+
+#############essai numero : 1,0
+ligne 6 ; stop: "Bercy" ; heure : 11:20:0
+ligne 14 ; stop: "Bercy" ; heure : 11:24:0
+ligne 14 ; stop: "Gare de Lyon" ; heure : 11:26:0
+ligne 14 ; stop: "Châtelet" ; heure : 11:29:0
+ligne 14 ; stop: "Pyramides" ; heure : 11:31:0
+ligne 14 ; stop: "Madeleine" ; heure : 11:33:0
+ligne 14 ; stop: "Saint-Lazare" ; heure : 11:35:0
+ligne 13 ; stop: "Saint-Lazare" ; heure : 11:38:0
+ligne 13 ; stop: "Liège" ; heure : 11:39:0
+ligne 13 ; stop: "Place de Clichy" ; heure : 11:41:0
+ligne 13 ; stop: "La Fourche" ; heure : 11:42:0
+ligne 13 ; stop: "Brochant" ; heure : 11:44:0
+ligne 13 ; stop: "Porte de Clichy" ; heure : 11:45:0
+ligne 13 ; stop: "Mairie de Clichy" ; heure : 11:47:0
+ligne 13 ; stop: "Gabriel-Péri" ; heure : 11:50:0
+ligne 13 ; stop: "Les Agnettes" ; heure : 11:52:0
+
+
+#############essai numero : 1,1
+ligne 13 ; stop: "Les Agnettes" ; heure : 2777:46:39
+
+
+#############essai numero : 2,0
+ligne 14 ; stop: "Bercy" ; heure : 11:20:0
+ligne 14 ; stop: "Gare de Lyon" ; heure : 11:23:0
+ligne 14 ; stop: "Châtelet" ; heure : 11:26:0
+ligne 14 ; stop: "Pyramides" ; heure : 11:28:0
+ligne 14 ; stop: "Madeleine" ; heure : 11:30:0
+ligne 14 ; stop: "Saint-Lazare" ; heure : 11:32:0
+ligne 13 ; stop: "Saint-Lazare" ; heure : 11:35:0
+ligne 13 ; stop: "Liège" ; heure : 11:37:0
+ligne 13 ; stop: "Place de Clichy" ; heure : 11:38:0
+ligne 13 ; stop: "La Fourche" ; heure : 11:39:0
+ligne 13 ; stop: "Brochant" ; heure : 11:44:0
+ligne 13 ; stop: "Porte de Clichy" ; heure : 11:45:0
+ligne 13 ; stop: "Mairie de Clichy" ; heure : 11:47:0
+ligne 13 ; stop: "Gabriel-Péri" ; heure : 11:50:0
+ligne 13 ; stop: "Les Agnettes" ; heure : 11:52:0
+
+
+#############essai numero : 2,1
+ligne 13 ; stop: "Les Agnettes" ; heure : 2777:46:39
+
+
+#############essai numero : 3,0
+ligne 14 ; stop: "Bercy" ; heure : 11:20:0
+ligne 6 ; stop: "Bercy" ; heure : 11:23:0
+ligne 14 ; stop: "Bercy" ; heure : 11:27:0
+ligne 14 ; stop: "Gare de Lyon" ; heure : 11:29:0
+ligne 14 ; stop: "Châtelet" ; heure : 11:32:0
+ligne 14 ; stop: "Pyramides" ; heure : 11:34:0
+ligne 14 ; stop: "Madeleine" ; heure : 11:36:0
+ligne 14 ; stop: "Saint-Lazare" ; heure : 11:38:0
+ligne 13 ; stop: "Saint-Lazare" ; heure : 11:41:0
+ligne 13 ; stop: "Liège" ; heure : 11:42:0
+ligne 13 ; stop: "Place de Clichy" ; heure : 11:44:0
+ligne 13 ; stop: "La Fourche" ; heure : 11:45:0
+ligne 13 ; stop: "Brochant" ; heure : 11:50:0
+ligne 13 ; stop: "Porte de Clichy" ; heure : 11:51:0
+ligne 13 ; stop: "Mairie de Clichy" ; heure : 11:53:0
+ligne 13 ; stop: "Gabriel-Péri" ; heure : 11:56:0
+ligne 13 ; stop: "Les Agnettes" ; heure : 11:58:0
+
+
+#############essai numero : 3,1
+ligne 13 ; stop: "Les Agnettes" ; heure : 2777:46:39
+
+
+
+
+###########requete numero : 3
+#############essai numero : 0,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 0,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 1,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 1,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+
+
+###########requete numero : 4
+#############essai numero : 0,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 0,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 1,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 1,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 2,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 2,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 3,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 3,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 4,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 4,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 5,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 5,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 6,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 6,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 7,0
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+#############essai numero : 7,1
+ligne 14 ; stop: "Olympiades" ; heure : 2777:46:39
+
+
+
+

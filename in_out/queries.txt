@@ -1,0 +1,6 @@
+# station_dep, station_arrivee, jour, heure_depart
+Bobigny-Pablo-Picasso,Mairie d'Issy,20191214,1500
+Pont de Sèvres,Exelmans,20191214,1500
+Bercy,Les Agnettes,20191122,1120
+Sentier,Olympiades,20190925,1505
+Saint-Lazare,Olympiades,20190925,1505
