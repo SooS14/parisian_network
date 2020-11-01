@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - Couverture - tests/tests.c</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">tests</a> - tests.c<span style="font-size: 80%;"> (source / <a href="tests.c.func-sort-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">Couverture</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">26</td>
+            <td class="headerCovTableEntry">30</td>
+            <td class="headerCovTableEntryMed">86.7 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2020-01-10 14:40:53</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">3</td>
+            <td class="headerCovTableEntry">3</td>
+            <td class="headerCovTableEntryHi">100.0 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #include &lt;stdio.h&gt;</a>
+<span class="lineNum">       2 </span>            : #include &lt;string.h&gt;
+<span class="lineNum">       3 </span>            : #include &lt;stdlib.h&gt;
+<span class="lineNum">       4 </span>            : #include &quot;types.h&quot;
+<span class="lineNum">       5 </span>            : #include &quot;scan_connection.h&quot;
+<span class="lineNum">       6 </span>            : #include &quot;print_chemin.h&quot;
+<span class="lineNum">       7 </span>            : #include &quot;parsing_stops.h&quot;
+<span class="lineNum">       8 </span>            : #include &quot;parsing_requete.h&quot;
+<span class="lineNum">       9 </span>            : #include &quot;parsing_connection.h&quot;
+<span class="lineNum">      10 </span>            : #include &quot;tps_unit_test.h&quot;
+<span class="lineNum">      11 </span>            : 
+<span class="lineNum">      12 </span>            : int __remaining_alloc;
+<span class="lineNum">      13 </span>            : 
+<a name="14"><span class="lineNum">      14 </span>            : </a>
+<span class="lineNum">      15 </span>            : //teste la lecture des requêtes
+<span class="lineNum">      16 </span><span class="lineCov">          1 : void test_requete(void){</span>
+<span class="lineNum">      17 </span>            :     Tab_requete tab_requete;// = malloc(sizeof(Tab_requete));
+<span class="lineNum">      18 </span><span class="lineCov">          1 :     parsing_requete(&quot;tests_queries.txt&quot;, &amp;tab_requete);</span>
+<span class="lineNum">      19 </span><span class="lineCov">          1 :     print_result_requete(&amp;tab_requete,&quot;results_requetes.txt&quot;);</span>
+<span class="lineNum">      20 </span><span class="lineCov">          1 :     tps_assert(strcmp(tab_requete.tab[0]-&gt;depart, &quot;Bobigny-Pablo-Picasso&quot;) == 0);</span>
+<span class="lineNum">      21 </span><span class="lineCov">          1 :     tps_assert(strcmp(tab_requete.tab[0]-&gt;arrivee, &quot;Mairie d'Issy&quot;) == 0);</span>
+<span class="lineNum">      22 </span><span class="lineCov">          1 :     tps_assert(strcmp(tab_requete.tab[0]-&gt;jour, &quot;20191214&quot;) == 0);</span>
+<span class="lineNum">      23 </span><span class="lineCov">          1 :     tps_assert(strcmp(tab_requete.tab[0]-&gt;heure, &quot;0100&quot;) == 0);</span>
+<span class="lineNum">      24 </span>            :     //free_tab_requete(&amp;tab_requete);
+<span class="lineNum">      25 </span><span class="lineCov">          6 :     for (int i = 0; i &lt; tab_requete.taille; i++) {</span>
+<span class="lineNum">      26 </span><span class="lineCov">          5 :       Requete * point = tab_requete.tab[i];</span>
+<span class="lineNum">      27 </span><span class="lineCov">          5 :       if (point == NULL) {</span>
+<span class="lineNum">      28 </span><span class="lineNoCov">          0 :         fputs(&quot;parsing_requete : point est null, erreur allocation&quot;,stderr);</span>
+<span class="lineNum">      29 </span><span class="lineNoCov">          0 :         exit(1);</span>
+<span class="lineNum">      30 </span>            :       }
+<span class="lineNum">      31 </span><span class="lineCov">          5 :       free(point);</span>
+<span class="lineNum">      32 </span>            :     }
+<span class="lineNum">      33 </span><span class="lineCov">          1 : }</span>
+<span class="lineNum">      34 </span>            : 
+<span class="lineNum">      35 </span>            : 
+<a name="36"><span class="lineNum">      36 </span>            : </a>
+<span class="lineNum">      37 </span>            : //teste la lecture des noeuds
+<span class="lineNum">      38 </span><span class="lineCov">          1 : void test_noeud(void){</span>
+<span class="lineNum">      39 </span>            :     Tab_noeud tab_noeud; // = malloc(sizeof(*tab_noeud));
+<span class="lineNum">      40 </span><span class="lineCov">          1 :     parsing_stops(&quot;tests_all_stops.txt&quot;, &amp;tab_noeud);</span>
+<span class="lineNum">      41 </span><span class="lineCov">          1 :     print_result_stops(&amp;tab_noeud,&quot;results_stops.txt&quot;);</span>
+<span class="lineNum">      42 </span><span class="lineCov">          1 :     tps_assert(tab_noeud.tab[0]-&gt;stop_id == 2371);</span>
+<span class="lineNum">      43 </span><span class="lineCov">          1 :     tps_assert(strcmp(tab_noeud.tab[0]-&gt;nom, &quot;\&quot;Nation\&quot;&quot;) == 0);</span>
+<span class="lineNum">      44 </span><span class="lineCov">          1 :     tps_assert(strcmp(tab_noeud.tab[0]-&gt;ligne_id, &quot;ligne 1&quot;) == 0);</span>
+<span class="lineNum">      45 </span>            :     //free_tab_noeud(&amp;tab_noeud);
+<span class="lineNum">      46 </span><span class="lineCov">        770 :     for (int i = 0; i &lt; tab_noeud.taille; i++) {</span>
+<span class="lineNum">      47 </span><span class="lineCov">        769 :       Noeud * point = tab_noeud.tab[i];</span>
+<span class="lineNum">      48 </span><span class="lineCov">        769 :       if (point == NULL) {</span>
+<span class="lineNum">      49 </span><span class="lineNoCov">          0 :         fputs(&quot;parsing_requete : point est null, erreur allocation&quot;,stderr);</span>
+<span class="lineNum">      50 </span><span class="lineNoCov">          0 :         exit(1);</span>
+<span class="lineNum">      51 </span>            :       }
+<span class="lineNum">      52 </span><span class="lineCov">        769 :       free(point);</span>
+<span class="lineNum">      53 </span>            :     }
+<span class="lineNum">      54 </span><span class="lineCov">          1 : }</span>
+<span class="lineNum">      55 </span>            : 
+<span class="lineNum">      56 </span>            : 
+<span class="lineNum">      57 </span>            : 
+<a name="58"><span class="lineNum">      58 </span>            : </a>
+<span class="lineNum">      59 </span>            : 
+<span class="lineNum">      60 </span><span class="lineCov">          1 : int main(void)</span>
+<span class="lineNum">      61 </span>            : {
+<span class="lineNum">      62 </span><span class="lineCov">          1 :   TEST(test_requete);</span>
+<span class="lineNum">      63 </span>            : 
+<span class="lineNum">      64 </span><span class="lineCov">          1 :   TEST(test_noeud);</span>
+<span class="lineNum">      65 </span>            : }
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.13</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>
